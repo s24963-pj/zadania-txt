@@ -1,0 +1,17 @@
+Po uruchomieniu terminala zawartość katalogu wyświetlam poprzez komendę ls -l
+
+Niestety ze wzgledu na to, że posługuję się VirtualBoxem nie jestem w stanie porównać interfejsu graficznego
+
+Za pomocą ścieżki względnej cd ../../ przeniosłem się do katalogu głównego i dzięki komendzie tree sprawdziłęm gdzie w VB znajdzuje się pulpit. Więc ścieżką bezwzględną wróciłem do katalogu s24963, aby móc ponownie ścieżką względną udać się do katalogu.
+
+Komendą pwd sprawdzam gdzie się znajduję.
+
+Komendą ls -l wyświetlam zawartość katalogu.
+
+Komenda ./././././ zwraca mnie do głównego katalogu.
+
+Za pomocą ścieżki bezwzględnej cd /home/PJWSTK/s24963 przenoszę się do swojego głównego katalogu.
+
+Nie mam uprawnień, aby skorzystać z komendy cd /root.
+
+Kombinacja CTRL + Alt + F1 otworzy główny termian ubundu?
