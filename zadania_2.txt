@@ -1,0 +1,2 @@
+Umask jest bardzo nietypowy. Dzięki niemu nakładałem nowe maski po czym tworzyłem nowe pliki i katalogi bez uprawnień przez co nie mogłem ich później usunąć. Dopiero funkcja przypisywania chmod (g+x) uprawniła mnie do usunięcia owych plików i katalogów. Powodem tego jest loginczna koniunkcja (AND)
+
