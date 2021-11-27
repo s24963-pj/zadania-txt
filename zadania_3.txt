@@ -1,0 +1,9 @@
+Po wykonaniu komendy ls -a | grep D > "nazwa pliku" utworzył się plik o tej nazwie, ale bez żadnej zawartości.
+
+Przycisk ">" oznacza w skrócie input. Przekierowanie do pliku.
+
+Przycisk "|" (i tutaj już musiałem poszperać), używanie drugiego programu do rozwiązania polecenia pierwszego (z tego co dobrze zrozumiałem). Nakłada jedno polecenie na drugie.
+
+Mój PID ma 0 procesów, używając funkcji kill nie zauważyłem różnicy. Za to jak użyłem komendy killall shell dostałem odpowiedź, że operacja niedozwolona. (Pewnie zatrzymuje wszystkie procesy)
+
+Po przetestowaniu kombinacji przycisków CTRL + C i CTRL + D mogę stwierdzić, że ctrl + c tworzy nowy plik tekstowy, ale bez zawartości. Natomiast ctrl + d tworzy plik z zawartością tekstową (oczywiście od programisty zależy tekst :)).
